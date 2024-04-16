@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Formulario de la Tienda de Comics</title>
+</head>
+<body>
+ 
+<img class="img" src="/c204be8b38dd7682d697d92c2d79ec90.jpg" width="200px" alt="">
+<h2>Formulario de Pedido</h2>
+
+<form action=" " method="post">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+  
+  <label for="correo">Correo Electrónico:</label><br>
+  <input type="email" id="correo" name="correo" required><br><br>
+  
+  <label for="producto">Producto:</label><br>
+  <select id="producto" name="producto" required>
+    <option value="">Seleccione un producto...</option>
+    <option value="funko">Funko</option>
+    <option value="comic">Cómic</option>
+    <option value="pin">Pin</option>
+    <option value="videojuego">Videojuego</option>
+  </select><br><br>
+  
+  <label for="cantidad">Cantidad:</label><br>
+  <input type="number" id="cantidad" name="cantidad" min="1" required><br><br>
+  
+  <label for="mensaje">Mensaje Adicional:</label><br>
+  <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+  
+  <input type="submit" value="Enviar Pedido">
+</form>
+
+</body>
+</html>

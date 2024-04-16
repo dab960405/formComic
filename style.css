@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+ 
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    
+  }
+  
+  .img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; 
+  }
+
+  br {
+    margin-bottom: 10px;
+  }
+  
+  .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+  }
+
+  /* Style for labels */
+  label {
+    font-weight: bold;
+  }
+
+  /* Style for input fields and select */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Style for submit button */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
